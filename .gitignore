@@ -1,0 +1,28 @@
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project
+workspace/*
+!workspace/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
