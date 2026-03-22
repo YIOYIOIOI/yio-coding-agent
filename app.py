@@ -398,4 +398,4 @@ if __name__ == "__main__":
     os.environ['NO_PROXY'] = 'localhost,127.0.0.1'
     os.environ['no_proxy'] = 'localhost,127.0.0.1'
     print(f"\n  AI Coding Agent\n  http://127.0.0.1:7860\n")
-    app.launch(server_name="127.0.0.1", server_port=7860, share=False)
+    app.launch(server_name="0.0.0.0", server_port=7860, share=False)
